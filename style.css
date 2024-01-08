@@ -1,0 +1,23 @@
+/* ... previous CSS styles ... */
+*{
+    background-color: #555;
+}
+
+
+/* Pseudo-element for styling first letter in h2 */
+h2::first-letter {
+    font-size: 150%;
+    color: red;
+}
+
+/* Combinator: Adjacent sibling selector for styling nav */
+nav + main {
+    margin-top: 20px;
+}
+
+/* Styling images with a class */
+.hobby-image {
+    border: 5px solid yellow;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
